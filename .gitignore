@@ -1,0 +1,27 @@
+.env
+.venv
+.python-version
+pyproject.toml
+README.md
+uv.lock
+
+# Sensitive data files
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+config.json
+secrets.json
+credentials.json
+*.secret
+*.conf
+database.db
+*.sqlite
+*.sqlite3
+.aws/
+.ssh/
+.azure/
+.gcp/
